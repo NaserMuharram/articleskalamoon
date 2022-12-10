@@ -9,11 +9,11 @@ const PORT = process.env.PORT || 3000;
 
 
 var mysqlConnection = mysql.createConnection({
-  host: "localhost",
+  host: "sql7.freemysqlhosting.net",
   port: "3306",
-  user: "id19986783_naser",
-  password: "4xmx]p=jsUFUD3?t",
-  database: "id19986783_articles",
+  user: "sql7583536",
+  password: "Ea2NPn5yD1",
+  database: "sql7583536",
   multipleStatements: true,
 });
 
