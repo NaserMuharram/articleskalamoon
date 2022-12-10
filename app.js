@@ -5,7 +5,7 @@ var formidable = require('formidable');
 
 
 const hostname = "127.0.0.1";
-const PORT = process.env.PORT || 3030;
+const PORT = process.env.PORT || 3000;
 
 
 var mysqlConnection = mysql.createConnection({
