@@ -1,4 +1,3 @@
-$ npm install express
 const http = require('http'); // The main server package
 const fs = require('fs'); // The file system package, used to deal with files
 var mysql = require('mysql');
