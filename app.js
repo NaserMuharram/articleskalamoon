@@ -320,9 +320,7 @@ const server = http.createServer((request, response) => {
   }
 });
 
-server.listen(port, hostname, () => {
+  server.listen(PORT, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
 
-  server.listen(PORT, () => {
-    console.log(`server started on port ${PORT}`);
-});})
+});
