@@ -12,9 +12,9 @@ const port = 3000;
 var mysqlConnection = mysql.createConnection({
   host: "localhost",
   port: "3306",
-  user: "root",
-  password: "",
-  database: "article",
+  user: "id19986783_naser",
+  password: "4xmx]p=jsUFUD3?t",
+  database: "id19986783_articles",
   multipleStatements: true,
 });
 
